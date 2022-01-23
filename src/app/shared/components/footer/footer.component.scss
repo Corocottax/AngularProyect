@@ -1,0 +1,25 @@
+.redesSociales {
+
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #ef4565;
+    background-image: url(https://www.transparenttextures.com/patterns/rocky-wall.png);
+
+    .redSocial {
+
+        display: flex;
+        justify-content: space-evenly;
+        width: 150px;
+        align-items: center;
+
+        img {
+    
+            width: 50px;
+    
+        }
+    
+    }
+
+}
+

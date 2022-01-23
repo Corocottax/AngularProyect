@@ -1,0 +1,79 @@
+h1 {
+
+    padding-top: 140px;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+
+}
+
+ul {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+
+    li {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        width: 188px;
+        border-radius: 20px;
+        height: 250px;
+        background-image: url(https://www.transparenttextures.com/patterns/rocky-wall.png), url(http://assets.stickpng.com/images/5941919e5eb5d45f10e35b27.png);
+        background-size: contain;
+        background-color: white;
+        cursor: pointer;
+
+        &:hover {
+
+            background-color: rgb(255, 188, 235);
+
+        }
+
+        .championName{
+
+            font-size: 35px;
+            text-align: center;
+
+        }
+
+        .championImage {
+
+            max-width: 100px;
+            max-height: 150px;
+
+        }
+
+    }
+
+}
+
+.loading {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 80vh;
+
+    img {
+
+        width: 200px;
+
+    }
+
+    h2 {
+
+        text-align: center;
+        color: white;
+        padding-top: 50px;
+    
+    }
+
+}

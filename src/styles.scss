@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+// variables globales
+$background: #000000;
+
+
+// reset 
+* {
+
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+// global styles 
+body {
+
+    font-family: 'Patrick Hand', cursive;
+    background-color: $background;
+    background-image: url("https://www.transparenttextures.com/patterns/rocky-wall.png");
+
+}

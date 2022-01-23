@@ -1,0 +1,28 @@
+<h1>Campeones de League of Legends</h1>
+
+<div class="loading" *ngIf="!championsList.length">
+
+  <img src="https://i.giphy.com/media/SYvBdbOBWN9tt2C0Hs/giphy.gif" alt="alistar loading">
+  <h2>Loading...</h2>
+
+</div>
+
+<ng-container *ngIf="championsList.length">
+  <ul>
+    <li *ngFor="let champion of championsList" routerLink="{{champion.name}}">
+
+        <img class="championImage" src="{{ champion.url }}" alt="{{ champion.name }}" />
+
+        <h3 class="championName">{{ champion.name }}</h3>
+
+<!--         <ng-container *ngFor="let calle of champion.calles">
+
+            <img src="{{calle.url}}" alt="{{calle.calle}}">
+
+        </ng-container> -->
+
+        <!-- <p>{{champion.runas}}</p> -->
+        
+    </li>
+  </ul>
+</ng-container>

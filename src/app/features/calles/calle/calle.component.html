@@ -1,0 +1,24 @@
+<div>
+
+    <div class="loading" *ngIf="!UrlChampions">
+
+        <img src="https://i.giphy.com/media/SYvBdbOBWN9tt2C0Hs/giphy.gif" alt="alistar loading">
+        <h2>Loading...</h2>
+      
+    </div>
+
+    <ng-container *ngIf="UrlChampions">
+
+        <ul>
+            <li *ngFor="let campeon of UrlChampions">
+        
+                <img class="championImage" src="{{campeon.url}}" alt="{{campeon.name}}">
+
+                <h3 class="championName">{{ campeon.name }}</h3>
+                
+            </li>
+        </ul>
+
+    </ng-container>
+
+</div>

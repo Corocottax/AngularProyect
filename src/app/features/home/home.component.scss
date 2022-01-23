@@ -1,0 +1,60 @@
+div {
+
+    padding-top: 100px;
+    align-items: center;
+    min-height: 300px;
+
+}
+
+h1 {
+
+    color: white;
+    text-align: center;
+
+}
+
+p {
+
+    color: white;
+    text-align: center;
+    padding-bottom: 137px;
+    width: 300px;
+
+}
+
+img {
+
+    width: 100%;
+
+}
+
+.descripcion {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h3 {
+
+        color: white;
+
+    }
+
+    .descripcion-detalle {
+
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 100%;
+
+    }
+
+    .descripcion-detalle-maximo {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+}

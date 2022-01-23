@@ -1,0 +1,17 @@
+<h1>Calles de League of Legends</h1>
+<div class="loading" *ngIf="!callesList.length">
+
+  <img src="https://i.giphy.com/media/SYvBdbOBWN9tt2C0Hs/giphy.gif" alt="alistar loading">
+  <h2>Loading...</h2>
+
+</div>
+<ng-container *ngIf="callesList.length">
+  <ul>
+    <li *ngFor="let calle of callesList" routerLink="{{calle.calle}}">
+
+        <img class="calleImage" src="{{ calle.url }}" alt="{{ calle.calle }}" />
+        <h3>{{calle.calle}}</h3>
+        
+    </li>
+  </ul>
+</ng-container>
