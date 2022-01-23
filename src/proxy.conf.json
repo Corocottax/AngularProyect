@@ -1,0 +1,7 @@
+{
+    "/api/*": {
+        "target": "https://apilol-seven.vercel.app/",
+        "secure": false,
+        "logLevel": "debug"
+    }
+}
